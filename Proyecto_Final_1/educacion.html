@@ -1,0 +1,146 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Curriculum Vitae</title>
+    </head>
+    <style>
+        h3{
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+    <body>
+    <div id="container_datos">
+        <section class="datos_title">
+            <h1>Hoja de Vida</h1>
+        </section>
+        <section class="datos_personales">
+            <h3> Nombre: Daniel Paredes</h3>
+            <h3> Apellidos: Paredes Rivas</h3>
+            <h3> Fecha de Nacimiento: 16 de Enero de 1992</h3>
+            <h3> Lugar de Nacimiento: Culiacán, Sinaloa, México</h3>
+        </section>
+    </div>
+
+
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación </a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+    </div>
+    <hr/>
+
+    <div id="container_educacion">
+        <section class="title_educacion">
+            <h2>Educación</h2>
+        </section>
+
+        <section class="table_educacion">
+            <table width="30%">
+                <thead>
+                    <tr>
+                        <th width="5%">Año</th>
+                        <th width="10%">Institución</th>
+                        <th width="5%">Lugar</th>
+                        <th width="10%">¿Culminó?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2005</td>
+                        <td>Federal 2</td>
+                        <td>Sinaloa</td>
+                        <td>2008</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>Cobaes</td>
+                        <td>Sinaloa</td>
+                        <td>2011</td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>Uas</td>
+                        <td>Sinaloa</td>
+                        <td>2016</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+
+        <section class="formulario_educacion">
+            <h2>Agregar Estudios</h2>
+
+            <form>
+                <label>Año:</label>
+                <select>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                </select><br/><br/>
+
+                <label> Institución:</label>
+                <input type="text" name="formulario_institucion" required/>
+                <br/>
+                <br/>
+
+                <label> Lugar:</label>
+                <textarea type="text" name="formulario_lugar" required>  </textarea>
+                <br/>
+                <br/>
+
+                <label> ¿Culminó?</label>
+                <input type="radio" name="formulario_culmino" value="si"> Si
+                <input type="radio" name="formulario_culmino" value="no"> No
+                <br/>
+                <br/>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </div>
+    <hr/>
+
+    <div id="footer">
+        <section class="info_contacto">
+            <ul>
+                <li><b>Correo eléctronico:</b> daniel_innovation92@hotmail.com</li>
+                <li><b>teléfono:</b> 8872-14-75-90</li>
+                <li><b>Dirección: 1234 Norte Edificio 13 Mazatlan,Sinaloa,México</b></li>
+            </ul>
+        </section>
+    </div>
+
+    </body>
+</html>
