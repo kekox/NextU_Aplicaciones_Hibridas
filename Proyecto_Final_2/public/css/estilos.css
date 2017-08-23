@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'DancingScript-Regular';
+    src: url("../fonts/Dancing_Script/DancingScript-Regular/DancingScript-Regular.ttf") format('truetype');
+    src: url("../fonts/Dancing_Script/DancingScript-Regular/DancingScript-Regular.eot");
+    src: url("../fonts/Dancing_Script/DancingScript-Regular/DancingScript-Regular.eot?#iefix") format('embedded-opentype'),
+         url("../fonts/Dancing_Script/DancingScript-Regular/DancingScript-Regular.woff") format('woff'),
+         url("../fonts/Dancing_Script/DancingScript-Regular/DancingScript-Regular.woff2") format('woff'),
+         url("../fonts/Dancing_Script/DancingScript-Regular/DancingScript-Regular.ttf") format('truetype'),
+         url("../fonts/Dancing_Script/DancingScript-Regular/DancingScript-Regular.svg#futura_bk_btbook") format('svg');
+}
+
+@font-face {
+    font-family: 'DancingScript-Bold';
+    src: url("../fonts/Dancing_Script/DancingScript-Bold/DancingScript-Bold.ttf") format('truetype');
+    src: url("../fonts/Dancing_Script/DancingScript-Bold/DancingScript-Bold.eot");
+    src: url("../fonts/Dancing_Script/DancingScript-Bold/DancingScript-Bold.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/Dancing_Script/DancingScript-Bold/DancingScript-Bold.woff") format('woff'),
+    url("../fonts/Dancing_Script/DancingScript-Bold/DancingScript-Bold.woff2") format('woff'),
+    url("../fonts/Dancing_Script/DancingScript-Bold/DancingScript-Bold.ttf") format('truetype'),
+    url("../fonts/Dancing_Script/DancingScript-Bold/DancingScript-Bold.svg#futura_bk_btbook") format('svg');
+}
+
+body {
+    font-family: 'DancingScript-Regular',helvetica;
+    background-color: #000000;
+    margin: 0px 0px;
+}
+
+img{
+    -webkit-box-shadow: 2px 2px 2px #02010a;
+    box-shadow: 2px 2px 2px #02010a;
+}
+
+a.link_secundario{
+    color: #000000;
+    font-size: 18px;
+
+}
+
+@media all and (max-width: 899px) {
+    div.contenido{
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    div.contenido div.header{
+        background-color: #5b7989;
+        padding: 20px 10px;
+
+    }
+
+    div.contenido div.header span.title{
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 2px 2px #02010a;
+        font-size: 30px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    div.contenido div.header span.menu{
+        color: #ffffff;
+        font-size: 22px;
+        text-align: center;
+        display: block;
+    }
+
+    div.contenido div.header span.menu a{
+        color: #ffffff;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    div.contenido div.header span.menu a:hover{
+        color: yellow;
+
+    }
+}
+
+
+@media all and (min-width: 900px) {
+    div.contenido {
+        margin: 0 auto;
+        max-width: 900px;
+
+    }
+
+    div.contenido div.header{
+        background-color: #5b7989;
+        padding: 20px 10px;
+
+    }
+
+    div.contenido div.header span.title{
+        color: #ffffff;
+        text-shadow: 2px 2px #02010a;
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    div.contenido div.header span.menu{
+        color: #ffffff;
+        font-size: 22px;
+        float: right;
+        margin-right: 20px;
+
+    }
+
+    div.contenido div.header span.menu a{
+        color: #ffffff;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    div.contenido div.header span.menu a:hover{
+        color: yellow;
+    }
+
+    div.contenido div.imagen_central{
+        padding: 5% 0%;
+        background-color: #82c3a6;
+    }
+
+    div.contenido div.imagen_central img{
+        position: relative;
+        top: 15%;
+        left:20%;
+    }
+
+    div.contenido div.imagen_secundaria {
+        padding: 5% 0%;
+        display: flex;
+        background-color: #d5c75f;
+        border: 1px solid #d5c75f;
+    }
+
+
+    div.contenido div.imagen_secundaria section.left{
+        float: left;
+        width: 50%;
+
+        text-align: center;
+    }
+
+    div.contenido div.imagen_secundaria section.left img:hover{
+        transform: rotate(10deg);
+        box-shadow: 2px 0px 2px #82c3a6;
+        transition: all .4s ease-out
+    }
+
+    div.contenido div.imagen_secundaria section.right{
+        float: right;
+        width: 50%;
+        text-align: center;
+    }
+
+    div.contenido div.imagen_secundaria section.right img:hover{
+        transform: translate(20px,5px);
+        box-shadow: 2px 2px 2px #82c3a6;
+        transition: all .4s ease-out
+    }
+
+    div.contenido div.footer {
+        height: 200px;
+        background-color: #C6d5c5;
+        padding: 15px 10px;
+    }
+
+    div.contenido div.footer span.column{
+        float:left;
+        width: 25%;
+    }
+}
