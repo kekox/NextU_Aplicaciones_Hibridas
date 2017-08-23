@@ -12,35 +12,63 @@
                 <span class="title">Comenzando con la fotografía</span>
 
                 <span class="menu">
-                    <a href="#">Inicio </a>
-                    <a href="#">Paisaje </a>
-                    <a href="#">Retratos </a>
+                    <a href="index.html" style="text-decoration: none">Inicio </a>
+                    <a href="paisajes.html">Paisaje </a>
+                    <a href="retratos.html">Retratos </a>
                 </span>
             </div>
 
             <div class="imagen_central">
-                <img src="http://via.placeholder.com/550x250" alt=""/>
+                <picture >
+                    <source media="(max-width: 899px)" srcset="http://via.placeholder.com/250x150" >
+                    <img src="http://via.placeholder.com/550x250" alt=""/>
+                </picture>
+
             </div>
 
             <div class="imagen_secundaria">
-                <section class="left">
-                    <img src="http://via.placeholder.com/350x250" alt=""/>
-                    <p><a href="#" class="link_secundario">Paisajes</a></p>
 
+                <section class="left">
+                    <picture>
+                        <source media="(max-width: 899px)" srcset="http://via.placeholder.com/250x150" >
+                        <img src="http://via.placeholder.com/350x250" alt=""/>
+                    </picture>
+
+                    <p><a href="paisajes.html" class="link_secundario">Paisajes</a></p>
                 </section>
 
                 <section class="right">
-                    <img src="http://via.placeholder.com/350x250" alt=""/>
-                    <p><a href="#" class="link_secundario">Retratos</a></p>
+                    <picture>
+                        <source media="(max-width: 899px)" srcset="http://via.placeholder.com/250x150" >
+                        <img src="http://via.placeholder.com/350x250" alt=""/>
+                    </picture>
 
+                    <p><a href="retratos.html" class="link_secundario">Retratos</a></p>
                 </section>
+
             </div>
 
             <div class="footer">
-                <span class="column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem doloremque, dolorum esse est exercitationem inventore perspiciatis quas quo recusandae reiciendis.</span>
-                <span class="column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto commodi culpa delectus dolore dolorum eaque facilis minus necessitatibus odio voluptatum.</span>
-                <span class="column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi eaque, id minima pariatur possimus quas quo soluta ut voluptate?</span>
-                <span class="column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error excepturi impedit molestias quisquam reprehenderit rerum suscipit velit voluptatibus? Assumenda, magni.</span>
+                <span class="column">
+                    <h2><strong>Contacto</strong></h2>
+                    <p>info@hotmail.com <br/> Calle Aquiles 800 Norte <br/> Teléfono: (487) 87-33-67</p>
+                </span>
+                <span class="column">
+                    <h2><strong>Términos</strong></h2>
+                    <p>Aviso de Privacidad</p>
+                </span>
+                <span class="column">
+                    <h2><strong>Redes Sociales</strong></h2>
+                    <p>
+                        <img src="http://via.placeholder.com/16x16" alt=""/> Compartir en Facebook <br/>
+                        <img src="http://via.placeholder.com/16x16" alt=""/> Compartir en Youtube <br/>
+                        <img src="http://via.placeholder.com/16x16" alt=""/> Compartir en Twitter <br/>
+                    </p>
+                </span>
+                <span class="column">
+                    <h2><strong>Derechos</strong></h2>
+                    <p>Daniel Paredes <br/>© Copyright 2017</p>
+                </span>
             </div>
         </div>
 
